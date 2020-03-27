@@ -1,5 +1,5 @@
 import Foundation
-
+import Alamofire
 public class MyPodName {
     var pointlessProperty: Any
     public init (myPointlessProperty: Any) {
