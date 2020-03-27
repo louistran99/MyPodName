@@ -22,7 +22,7 @@ pod 'MyPodName'
 
 ## Author
 
-louistran99, louist@zillow.com
+louistran99
 
 ## License
 
