@@ -7,11 +7,13 @@
 //
 
 import UIKit
-
+import MyPodName
 class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
+        let myPod = MyPodName(myPointlessProperty: "pointlessProperty")
+        myPod.printSomething()
         // Do any additional setup after loading the view, typically from a nib.
     }
 
