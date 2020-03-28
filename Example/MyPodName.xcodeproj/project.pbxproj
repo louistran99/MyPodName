@@ -292,11 +292,13 @@
 			inputPaths = (
 				"${PODS_ROOT}/Target Support Files/Pods-MyPodName_Example/Pods-MyPodName_Example-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/MyFoundation/MyFoundation.framework",
 				"${BUILT_PRODUCTS_DIR}/MyPodName/MyPodName.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MyFoundation.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MyPodName.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;

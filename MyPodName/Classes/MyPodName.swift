@@ -1,11 +1,13 @@
 import Foundation
 import Alamofire
+import MyFoundation
 public class MyPodName {
     var pointlessProperty: Any
+    var pod = MyFoundation()
     public init (myPointlessProperty: Any) {
         self.pointlessProperty = myPointlessProperty
     }
     public func printSomething () {
-        print("Printing to the console so we know the sample cocoapods is working!!!")
+        print("Hello there!  An instance of \(MyPodName.self) was successfully created!")
     }
 }
