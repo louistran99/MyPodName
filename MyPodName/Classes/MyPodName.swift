@@ -1,5 +1,4 @@
 import Foundation
-import Alamofire
 import MyFoundation
 public class MyPodName {
     var pointlessProperty: Any
