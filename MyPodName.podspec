@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'MyPodName'
-  s.version          = '0.1.0'
+  s.version          = '0.2.0'
   s.summary          = 'A short pod that will have another pod as a dependency'
 
   s.description      = 'Just an example of a simple pod that depends on another pod'
@@ -30,6 +30,5 @@ Pod::Spec.new do |s|
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
   # s.frameworks = 'UIKit', 'MapKit'
-  s.dependency 'Alamofire', '~> 4.7'
   s.dependency 'MyFoundation', '~> 1.1.0'
 end
