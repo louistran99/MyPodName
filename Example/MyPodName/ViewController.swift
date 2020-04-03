@@ -8,6 +8,7 @@
 
 import UIKit
 import MyPodName
+import MyFoundation
 class ViewController: UIViewController {
 
     override func viewDidLoad() {

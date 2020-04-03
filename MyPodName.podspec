@@ -23,6 +23,7 @@ Pod::Spec.new do |s|
   s.ios.deployment_target = '12.0'
   s.swift_version = '5.0'
   s.source_files = 'MyPodName/Classes/**/*'
+  s.resources = ["MyPodName/Assets/**/*.xib"]
   
   # s.resource_bundles = {
   #   'MyPodName' => ['MyPodName/Assets/*.png']
@@ -30,5 +31,5 @@ Pod::Spec.new do |s|
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
   # s.frameworks = 'UIKit', 'MapKit'
-  s.dependency 'MyFoundation', '~> 1.1.0'
+  s.dependency 'MyFoundation', '~> 1.0.0'
 end
