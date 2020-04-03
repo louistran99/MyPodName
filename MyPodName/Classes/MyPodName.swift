@@ -7,6 +7,6 @@ public class MyPodName {
         self.pointlessProperty = myPointlessProperty
     }
     public func printSomething () {
-        print("Hello there!  An instance of \(MyPodName.self) was successfully created!")
+        print("Hello there!  An instance of \(MyPodName.self) was successfully created! ")
     }
 }

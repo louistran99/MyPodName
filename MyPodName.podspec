@@ -23,7 +23,7 @@ Pod::Spec.new do |s|
   s.ios.deployment_target = '12.0'
   s.swift_version = '5.0'
   s.source_files = 'MyPodName/Classes/**/*.swift'
-  #s.resource = 'MyPodName/Assets/**/*.xib'
+  s.resource = 'MyPodName/Assets/**/*.xib'
   
   # s.resource_bundles = {
   #   'MyPodName' => ['MyPodName/Assets/*.png']

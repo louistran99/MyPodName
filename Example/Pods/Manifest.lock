@@ -4,17 +4,20 @@ PODS:
     - MyFoundation (~> 1.0.0)
 
 DEPENDENCIES:
-  - MyPodName
+  - MyPodName (from `../`)
 
 SPEC REPOS:
   https://github.com/louistran99/podspecs.git:
     - MyFoundation
-    - MyPodName
+
+EXTERNAL SOURCES:
+  MyPodName:
+    :path: "../"
 
 SPEC CHECKSUMS:
   MyFoundation: ac5614c92cd0321eedfb684c7e0d7d583a8aa2cc
-  MyPodName: 5ca9f6f1560ea25bc76c7e009932998478fa6c60
+  MyPodName: 2913e94046a8045659794ea4757802c20d2ddfae
 
-PODFILE CHECKSUM: 36c49b451674bff79ef822b530d588e88d167985
+PODFILE CHECKSUM: 59dd4401d6255589d15d59c2107c2f10d65a3b84
 
 COCOAPODS: 1.9.1
