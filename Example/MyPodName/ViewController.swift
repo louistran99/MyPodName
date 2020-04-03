@@ -15,6 +15,8 @@ class ViewController: UIViewController {
         super.viewDidLoad()
         let myPod = MyPodName(myPointlessProperty: "pointlessProperty")
         myPod.printSomething()
+        let blinkingLabel = BlinkingLabel(frame: CGRect.zero)
+        blinkingLabel.blinkLabel()
         // Do any additional setup after loading the view, typically from a nib.
     }
 
