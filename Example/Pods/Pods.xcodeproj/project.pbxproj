@@ -16,6 +16,7 @@
 		762B6C98C8E71A233494AE69581E78AB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BAEB7E5AD57C1CBEE32C020D55ABB328 /* Foundation.framework */; };
 		7C5E2781F05B667740289CF95F095F4A /* MyFoundation-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = DB854729D34CE1E5407B38132A4BDD30 /* MyFoundation-dummy.m */; };
 		99EA57442437B8A800B1E389 /* SomeView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 99EA57432437B8A700B1E389 /* SomeView.xib */; };
+		99EA57462437BB5C00B1E389 /* AnotherSwiftFile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99EA57452437BB5C00B1E389 /* AnotherSwiftFile.swift */; };
 		9FFD6DBBC96D59EA1252FE80DF39B823 /* Pods-MyPodName_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 13C3B77E096885D0FA8C015BB1117FAF /* Pods-MyPodName_Tests-dummy.m */; };
 		A039CDBCEAAA83831ADD2BCCC0C35689 /* Pods-MyPodName_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E7E7968B3A2E05B9923911D5F4C072B /* Pods-MyPodName_Example-dummy.m */; };
 		AB87385E24644EB4C79C6647C2958E82 /* MyPodName-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = F8CD0A1E0D973103DF204CB6D9572E3D /* MyPodName-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -81,6 +82,7 @@
 		887C0E340889BBFE151F48EC04F8C6E7 /* Pods-MyPodName_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-MyPodName_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
 		8C5D8D891598640E5290CD4F3F5761D8 /* Pods-MyPodName_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MyPodName_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		99EA57432437B8A700B1E389 /* SomeView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = SomeView.xib; path = ../../../MyPodName/Assets/SomeView.xib; sourceTree = "<group>"; };
+		99EA57452437BB5C00B1E389 /* AnotherSwiftFile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = AnotherSwiftFile.swift; path = ../../../MyPodName/Classes/AnotherSwiftFile.swift; sourceTree = "<group>"; };
 		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		A196ABE9C0B2150A6829AFB182EBD38B /* Pods-MyPodName_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-MyPodName_Tests-umbrella.h"; sourceTree = "<group>"; };
 		AD64925DA83A3A5D1AF34FB84791CBB2 /* MyPodName.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = MyPodName.debug.xcconfig; sourceTree = "<group>"; };
@@ -237,6 +239,7 @@
 				06D07B9631640C5A4E2C115476BF91B7 /* MyPodName.swift */,
 				BFB48587FDC0AD6D9891EA3A3E4EEB0F /* Support Files */,
 				99EA57432437B8A700B1E389 /* SomeView.xib */,
+				99EA57452437BB5C00B1E389 /* AnotherSwiftFile.swift */,
 			);
 			path = MyPodName;
 			sourceTree = "<group>";
@@ -467,6 +470,7 @@
 			files = (
 				CD26713251C925A7EE74DC05CC0A0670 /* MyPodName-dummy.m in Sources */,
 				FBD885B14019D21FEB094697E99BFA2D /* MyPodName.swift in Sources */,
+				99EA57462437BB5C00B1E389 /* AnotherSwiftFile.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
