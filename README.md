@@ -8,6 +8,8 @@
 ## Example
 
 To run the example project, clone the repo, and run `pod install` from the Example directory first.
+When you're developing you library, line 6 of the `Podfile` looks like `pod 'MyPodName', :path => '../'`
+When you're ready to release your library, line 6 of the `Podfile` looks like pod `'MyPodName'`
 
 ## Requirements
 
